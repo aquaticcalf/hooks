@@ -1,0 +1,33 @@
+{
+  "name": "super-simple-style",
+  "version": "1.0.0",
+  "description": "a super simple way to add basic styled react components to your project",
+  "main": "index.js",
+  "bin": {
+    "sss": "./bin/cli.js",
+    "supersimplestyle": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquaticcalf/super-simple-style.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "super-simple-style",
+    "sss"
+  ],
+  "author": "aquaticcalf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquaticcalf/super-simple-style/issues"
+  },
+  "homepage": "https://github.com/aquaticcalf/super-simple-style#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "inquirer": "^12.2.0"
+  }
+}
